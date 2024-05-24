@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "pageName": "Undiscovered Eats",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnYgU1HUepm7W1IkOVqhYKzfS6ZiEPw4wRNkkzx7_PoA&s",
+        "interact": 10
+    },
+    {
+        "id": 2,
+        "pageName": "Weekend Trips",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhDtvJ0qovMaw2OASBG0zA1hpqLj3fkv4eDzPYTn7hA&s",
+        "interact": 5
+    },
+    {
+        "id": 3,
+        "pageName": "Jasper's Market",
+        "image": "https://media.timeout.com/images/105263065/750/422/image.jpg",
+        "interact": 6
+    },
+    {
+        "id": 4,
+        "pageName": "Red Table Talk Group",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-dp9Z2RZw1GgLnH7Q7IpekwpaabmK06viqzdkvH8bfw&s",
+        "interact": 8
+    },
+    {
+        "id": 5,
+        "pageName": "Best Hidden Hiking Tralls",
+        "image": "https://cpad.ask.fm/450/774/576/-29996968-1tfd7tc-gpggmmc5d0og3a0/original/image.jpg",
+        "interact": 7
+    }
+]

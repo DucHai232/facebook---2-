@@ -1,0 +1,136 @@
+.about-container{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(228, 227, 227);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.about-left {
+    width: 30%;
+    border-right: 1px solid rgb(228, 227, 227);
+}
+
+.about-left .about-left_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about-left ul {
+    list-style-type: none ;
+
+}
+
+.about-left ul li{
+    padding: 10px;
+    transition: 0.3s;
+}
+.about-left ul li:hover {
+    background-color: rgb(228, 227, 227);
+    cursor: pointer;
+    border-radius: 6px;
+}
+.about-left ul li a{
+    text-decoration: none;
+    color: #818181;
+}
+
+/* about-right */
+.about-right{
+    width: 70%;
+    padding: 20px 10px;
+}
+
+/* friends-container */
+.box-container{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(228, 227, 227);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.box-header{
+    display: flex;
+    position: relative;
+}
+
+.box-header .title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-header .action{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box-header .action span{
+    margin-right: 20px;
+    color: rgb(6, 117, 207);
+    font-weight: bold;
+}
+
+.box-header .action .icon{
+    background-color: #818181;
+    color: white;
+    border-radius: 5px;
+}
+
+.box-nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.box-nav ul li {
+    padding: 10px 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* friends-list */
+.friend-box {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+}
+.friends-list .friend-box .image{
+    width: 18%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.friend-box .des{
+    margin-left: 20px;
+}
+
+.friend-box .des p:nth-of-type(1){
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.friend-box .des p:nth-of-type(2){
+    font-size: 14px;
+}
+
+.friend-box .icon{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    transition: 0.3s;
+}
+
+.friend-box .icon:hover{
+    background-color: #818181;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.empty{
+    margin-left: 50%;
+    margin-top: 30px;
+}

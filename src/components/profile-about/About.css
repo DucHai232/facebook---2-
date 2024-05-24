@@ -1,0 +1,51 @@
+.overview-container ul {
+    list-style-type: none;
+
+}
+
+.overview-container ul li{
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+
+}
+.overview-container ul .added span, .overview-container ul .added p{
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.overview-container ul .absolute {
+    position: absolute;
+    top: 0; 
+    right: 0;
+}
+
+.overview-container ul .icon-select{
+    margin-right: 12px;
+}
+
+.overview-container ul .icon{
+    color: #5e5d5d;
+    cursor: pointer;
+}
+
+.overview-container ul .des p:nth-of-type(2){
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.overview-container ul .icon-link{
+    border: 1px solid blue;
+    border-radius: 50%;
+    color: blue
+}
+
+.overview-container ul .link{
+    color: blue;
+    cursor: pointer;
+}
+
+.overview-container ul .link:hover{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,30 @@
+[
+    {
+    "username": "Duc Hai",
+    "avatar": "https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-den-ngau-012.jpg",
+    "posts": [
+        {
+            "id": 1,
+            "time": "30 minute",
+            "post": "This has some great healthy recipes",
+            "postImage": "https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg",
+            "numberLike" : 30
+        },
+        {
+            "id": 2,
+            "time": "1 hrs",
+            "post": "Happy so good",
+            "postImage": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3JtNzA1ZGVzaWduLWVmZmVjdC10dS0wNmEuanBn.jpg",
+            "numberLike" : 100
+        }, 
+        {
+            "id": 3,
+            "time": "2 hrs",
+            "post": "How do you feel?",
+            "postImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlbuftPNmMYQ7FK_IVYBVfkyIW9OChgiSZAmnmaJpDJw&s",
+            "numberLike" : 150
+        }
+    ]  
+    } 
+   
+]

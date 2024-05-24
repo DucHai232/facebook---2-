@@ -1,0 +1,27 @@
+[
+    {
+        "userId": "user-1",
+        "text": "Howw are u"
+    },
+    {
+        "userId": "user-1",
+        "text": "What??"
+    },
+    {
+        "userId": "user-2",
+        "text": "Ok, I'm fine"
+    },
+    {
+        "userId": "user-2",
+        "text": "And u?"
+    },
+    {
+        "userId": "user-2",
+        "text": "abc"
+    },
+    {
+        "userId": "user-1",
+        "text": "abc"
+    }
+
+]

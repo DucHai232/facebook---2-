@@ -1,0 +1,89 @@
+.righthome-container{
+   flex: 3;
+   padding: 5px;
+   overflow-y: scroll;
+   height: calc(100vh - 50px);
+}
+
+.rightHr{
+    margin: 10px 0;
+}
+
+.topright-container{
+    width: 100%;
+}
+
+.topright-title, .bottomright-title, .contactsRight-title{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #818181;
+}
+
+.sponsored{
+    display: flex;
+    margin: 20px 0;
+}
+
+.sponsored .content{
+    margin-left: 5px;
+}
+
+.sponsored .content img{
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.sponsored .content .title{
+    font-weight: bold;
+}
+
+.sponsored .content .des{
+    font-size: small;
+}
+
+/* bottomright */
+.bottomright-container .des{
+    display: flex;
+
+}
+
+.bottomright-container .des .alert{
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+/* Contacts */
+
+.user-contact{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.list-contacts{
+    margin-top: 10px;
+}
+
+.user-contact .avatar{
+    position: relative;
+    z-index: 1;
+}
+
+.user-contact .avatar::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    bottom: 0;
+    right: 2px;
+    z-index: 2;
+}
+
+.user-contact .username{
+    margin-left: 10px;
+    font-weight: bold;
+}

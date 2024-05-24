@@ -1,0 +1,121 @@
+.modal-mess-container{
+    position: fixed;
+    bottom: 0;
+    right: 3%;
+    z-index: 100;
+    background-color: rgb(141, 141, 141);
+    width: 330px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1.5px solid lightgray;
+}
+
+.modal-header{
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(49, 49, 211);
+    color: white;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+
+.modal-header .des {
+    margin-left: 10px;
+}
+
+.modal-header .des p:nth-of-type(1){
+    font-size: 18px;
+    font-weight: bold;
+}
+.modal-header .des p:nth-of-type(2){
+    font-size: 12px;
+}
+.modal-header .icon{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    
+}
+
+.modal-header .icon .space, .modal-input .icon .space{
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+/* modal-chat */
+.modal-chat{
+    background-color: rgb(255, 255, 255);
+    height: 255px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5;
+    padding: 15px;
+}
+
+
+.message{
+    color: white;
+    display: flex;
+   background-color: #5a5a5a;
+    padding: 10px;
+    border-radius: 15px 15px 15px 0;
+    max-width: 200px;
+    width: fit-content;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.modal-chat .avatar{
+    margin-right: 5px;
+}
+
+.own {
+    max-width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    align-self: flex-end;
+    border-radius: 15px 15px 0 15px;
+    background: linear-gradient(98.63deg, #24e4f0 0%, #358ff9 100%);
+}
+
+/* modal input */
+
+.modal-input{
+    background-color: #a3a3a3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.modal-input .icon{
+    margin-right: 20px;
+}
+
+.modal-input .input-text{
+    margin-right: 5px;
+    width: 170px;
+    height: 30%;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 3px;
+}
+
+.modal-input .heart{
+    color: rgb(202, 34, 34);
+    cursor: pointer;
+}
+
+/* modal-hide-container */
+.modal-hide-container{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50%;
+}

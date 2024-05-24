@@ -1,0 +1,177 @@
+/* profile header */
+
+.profile-header{
+    position: relative;
+}
+.profileHr{
+    margin: 150px 10px 0px 10px;
+}
+.background-profile{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.header-bottom .header-info{
+    display: flex;
+    position: absolute;
+    top: 95%;
+    left: 5%;
+}
+
+.header-bottom .header-info .avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+
+.header-bottom .header-info .des{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.header-info .des .username{
+    font-size: 25px;
+}
+
+.header-info .des .number-friends{
+    font-weight: 500;
+    color: gray;
+
+}
+
+.header-info .des .avatar-group{
+    margin-top: 10px;
+}
+
+.header-change{
+    position: absolute;
+    top: 105%;
+    right: 5%;
+}
+
+.header-change .add-story {
+    margin-right: 10px;
+}
+
+/* Nav */
+.nav-container ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.nav-container ul li{
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.nav-container ul li:hover{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.nav-container ul li a{
+    text-decoration: none;
+    color: #818181;
+    font-weight: bold;
+}
+.usercurrent-container{display: flex;}
+/* Left-side-intro */
+.left-side{
+    width: 45%;
+}
+.introduct{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(228, 227, 227);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.introduct-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.introduct ul {
+    list-style-type: none;
+}
+
+.introduct ul li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.introduct ul li .icon{
+   color: #818181;
+}
+
+.introduct ul li span{
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.introduct .btn-seemore{
+    background-color: rgb(228, 227, 227);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.list-image, .list-friends{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(228, 227, 227);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.list-image .list-image_header{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.list-image .list-image_header span:nth-of-type(1), .list-friends_header .list-friends_left p:nth-of-type(1){
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.list-image .list-image_header span:nth-of-type(2), .list-friends_header span{
+    margin-left: 100px;
+    color: rgb(12, 136, 207);
+    font-size: 15px;
+}
+
+
+.list-image .image, .list-friends .image{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.list-friends .list-friends_header{
+    display: flex;
+}
+
+.list-friends_header .list-friends_left p:nth-of-type(2){
+    color: #818181;
+    font-size: 14px;
+}
+
+.list-friends .username{
+    font-size: 14px;
+}
+
+/* Right Side */
+.post-profile, .news-profile{
+    margin-left: 10px;
+}

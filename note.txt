@@ -1,0 +1,10 @@
+Hàm mà bạn truyền vào useEffect sẽ được gọi sau mỗi lần render của component.
+Tham số thứ hai của useEffect là một mảng các dependencies (phụ thuộc)
+useEffect sẽ chạy lại hàm được truyền vào 
+nếu bất kỳ phần tử trong mảng này thay đổi 
+so với giá trị trước đó của chúng
+
+const [state, setState] = useState(initialState);
+initialState là giá trị ban đầu của state.
+state là biến chứa giá trị của state tại thời điểm hiện tại.
+setState là một hàm để cập nhật giá trị của state. Khi bạn gọi setState với một giá trị mới, React sẽ tự động render lại component và cập nhật giá trị của state.
