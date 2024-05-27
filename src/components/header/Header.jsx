@@ -11,8 +11,10 @@ import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { Avatar } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 const Header = () => {
   const navigate = useNavigate();
+  const data = useSelector((state) => state.userReducer);
   return (
     <div className="header-container">
       <div className="header-left">

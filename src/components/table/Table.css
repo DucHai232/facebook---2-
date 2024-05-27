@@ -1,0 +1,16 @@
+table, th, td{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+table{
+    width: 50%;
+}
+
+th {
+    width: 70px
+}
+
+.table-container{
+    margin: 10rem 10rem;
+}

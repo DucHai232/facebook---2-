@@ -13,11 +13,14 @@ const Register = () => {
   });
 
   const handleChange = (e) => {
-    setUser({ ...user, [e.target.name]: e.target.value });
+    setUser({ ...user, [e.target.name]: e.target.value }); //key : value name: Đức Hải
   };
 
   const handleRegister = async () => {
-    // await axios.post("https://664f4d11fafad45dfae33698.mockapi.io/api/v1/users", user)
+    await axios.post(
+      `https://664f4d11fafad45dfae33698.mockapi.io/api/v1/users/123`,
+      user
+    );
     dispatch(createUser(user)); //dawng ky 1 lan
   }; //suawr user, delete user
   return (

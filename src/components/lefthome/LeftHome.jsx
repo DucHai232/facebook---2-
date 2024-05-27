@@ -9,6 +9,7 @@ import VideogameAssetIcon from "@mui/icons-material/VideogameAsset";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLess from "@mui/icons-material/ExpandLess";
 import likePages from "../../data/LikePage.json";
+import { useSelector } from "react-redux";
 const data = [
   {
     id: 1,
@@ -54,7 +55,6 @@ const LeftHome = () => {
   const [number, setNumber] = useState(numberInit);
   const [numberPage, setNumberPage] = useState(numberInit);
   const sort = likePages.sort((a, b) => a.interact - b.interact);
-
   useEffect(() => {
     setSliceData(data.slice(0, number));
     setSlicePages(likePages.slice(0, numberPage));
