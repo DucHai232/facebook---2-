@@ -17,8 +17,8 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Register /> */}
-      <Table />
+      <Register />
+      {/* <Table /> */}
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/user-profile/*" element={<Profile />} />
